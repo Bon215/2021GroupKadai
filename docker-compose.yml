@@ -19,6 +19,6 @@ services:
     ports:
       - "3001:3000"
     volumes:
-      - ./app:/app
+      - ./app/client:/app
     tty: true
   
