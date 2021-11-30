@@ -8,6 +8,8 @@
 
 -----------------------
 
+#### clientとserverを一緒に起動する場合
+
 1. git clone後
 ```
 $  source kadai.sh
@@ -19,6 +21,21 @@ $ dbuild
 3. 実行
 ```
 $ dup
+```
+
+#### 分けたい場合
+
+1. git clone後
+```
+$  source kadai.sh
+```
+2. server起動
+```
+$ dserver
+```
+3. 別の窓でclient起動
+```
+$ dclient
 ```
 
 -----------------------
