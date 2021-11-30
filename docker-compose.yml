@@ -30,7 +30,7 @@ services:
       dockerfile: server/docker/Dockerfile
     container_name: kadai-server
     environment:
-      - COMMAND=${COMMAND:-dev}
+      - COMMAND=${COMMAND:-start}
       - NODE_ENV=development
     env_file:
       - server/app/.env
