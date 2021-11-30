@@ -9,6 +9,7 @@
       "@utils/*": ["utils/*"],
       "@styles/*": ["styles/*"],
       "@entity/*": ["entities/*"],
+      "@model/*": ["model/*"],
       "@constants/*": ["constants/*"]
     }
   }
